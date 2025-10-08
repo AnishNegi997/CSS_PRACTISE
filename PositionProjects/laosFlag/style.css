@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+}
+
+.inbox{
+    background-color: rgb(35, 2, 87);
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    position: relative;
+}
+
+.circle{
+    height: 80px;
+    width: 80px;
+    background-color: aliceblue;
+    position: absolute;
+    left:110px;
+    top: 10px;
+    border-radius: 100%;
+}

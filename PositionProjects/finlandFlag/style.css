@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(196, 196, 23);
+    position: relative;
+}
+
+.part1,.part2{
+    height: 125px;
+    width: 250px;
+    background-color: aqua;
+}
+
+.part2{
+   position: absolute;
+   top: 175px;
+}
+
+.part3,.part4{
+    height: 125px;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    left: 300px;
+}
+
+.part3{
+    top: 0px;
+}
+.part4{
+    top: 175px;
+}
+
