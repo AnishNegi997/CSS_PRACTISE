@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(8,1fr);
+}
+
+.red{
+    background-color: red;
+}
+
+
+
